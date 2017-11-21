@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 public class AuthserviceApplication {
 
 	public static void main(String[] args) {
-		//test3456
+		//test34567
 		SpringApplication.run(AuthserviceApplication.class, args);
 	}
 }
