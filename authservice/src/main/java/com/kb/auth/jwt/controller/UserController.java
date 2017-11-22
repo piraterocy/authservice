@@ -39,4 +39,9 @@ public class UserController {
 		
 		return userService.refreshToken(request, response, token);
 	}
+	
+	@RequestMapping (value = "getVersion", method = {RequestMethod.POST, RequestMethod.GET},produces="application/json;charset=UTF-8")
+	public String getVersion(){
+		return "0.0.1";
+	}
 }
