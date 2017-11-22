@@ -67,7 +67,8 @@ public class UserService {
 		
 		} catch (Exception e) {
 			logger.error(e);
-			return ResponseUtil.unKonwException();
+			return ResponseUtil.exception("Refreshtoken非法");
+			
 		}
 	}
 	
