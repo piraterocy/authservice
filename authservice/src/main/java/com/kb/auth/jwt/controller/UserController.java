@@ -42,6 +42,6 @@ public class UserController {
 	
 	@RequestMapping (value = "getVersion", method = {RequestMethod.POST, RequestMethod.GET},produces="application/json;charset=UTF-8")
 	public String getVersion(){
-		return "0.0.10";
+		return "0.0.11";
 	}
 }
